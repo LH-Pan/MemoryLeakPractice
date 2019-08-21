@@ -8,28 +8,34 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, PassColorDelegate {
     
-    @IBOutlet weak var secondViewLabel: UILabel!
+    var myView: UIView = UIView()
     
-    weak var delegate: PassTextDelegate?
+    let someView = SomeView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupLabelText(text: "傳過去～")
-    }
-    
-    func setupLabelText(text: String) {
+        view.addSubview(myView)
         
-        secondViewLabel.text = text
+        setupView()
         
-        delegate?.passText(with: text)
+        someView.delegate = self
         
-    }
-}
+        someView.setupColor()
 
-protocol PassTextDelegate: AnyObject {
+    }
     
-    func passText(with text: String)
+     func setupView() {
+    
+        myView.frame = CGRect(x: 100, y: 200, width: 50, height: 50)
+        
+        myView.backgroundColor = .gray
+    
+    }
+    
+    func passColor(didGet color: UIColor) {
+       myView.backgroundColor = color
+    }
 }

@@ -14,6 +14,7 @@
 		22ED2D39230D1D9500B43443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ED2D38230D1D9500B43443 /* Assets.xcassets */; };
 		22ED2D3C230D1D9500B43443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ED2D3A230D1D9500B43443 /* LaunchScreen.storyboard */; };
 		22ED2D44230D21E300B43443 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ED2D43230D21E300B43443 /* SecondViewController.swift */; };
+		22FCC070230D41BD00B363D3 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FCC06F230D41BD00B363D3 /* SomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		22ED2D3B230D1D9500B43443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22ED2D3D230D1D9500B43443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22ED2D43230D21E300B43443 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		22FCC06F230D41BD00B363D3 /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				22ED2D32230D1D9200B43443 /* Main.storyboard */,
 				22ED2D30230D1D9200B43443 /* ViewController.swift */,
 				22ED2D43230D21E300B43443 /* SecondViewController.swift */,
+				22FCC06F230D41BD00B363D3 /* SomeView.swift */,
 			);
 			path = MemoryLeakPractice;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				22ED2D31230D1D9200B43443 /* ViewController.swift in Sources */,
 				22ED2D37230D1D9200B43443 /* MemoryLeakPractice.xcdatamodeld in Sources */,
 				22ED2D2F230D1D9200B43443 /* AppDelegate.swift in Sources */,
+				22FCC070230D41BD00B363D3 /* SomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
