@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MemoryLeakPractice/ViewController.swift"
+            timestampString = "588064694.784539"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "passText(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MemoryLeakPractice/ViewController.swift"
+            timestampString = "588064711.888552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MemoryLeakPractice.ViewController.secondVC.getter : MemoryLeakPractice.SecondViewController"
+                  moduleName = "MemoryLeakPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/panlishiang/2019Summer_School/MemoryLeakPractice/MemoryLeakPractice/ViewController.swift"
+                  timestampString = "588064712.1331739"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MemoryLeakPractice.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MemoryLeakPractice.ViewController"
+                  moduleName = "MemoryLeakPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/panlishiang/2019Summer_School/MemoryLeakPractice/MemoryLeakPractice/ViewController.swift"
+                  timestampString = "588064712.1348701"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MemoryLeakPractice.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MemoryLeakPractice.ViewController&gt;"
+                  moduleName = "MemoryLeakPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/panlishiang/2019Summer_School/MemoryLeakPractice/MemoryLeakPractice/ViewController.swift"
+                  timestampString = "588064712.137365"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "98">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
