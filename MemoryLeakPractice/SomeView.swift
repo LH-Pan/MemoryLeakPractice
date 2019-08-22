@@ -8,24 +8,33 @@
 
 import UIKit
 
-protocol PassColorDelegate: AnyObject {
-    
-    func passColor(didGet color: UIColor)
-}
+//protocol PassColorDelegate: AnyObject {
+//
+//    func passColor(didGet color: UIColor)
+//}
 
 class SomeView: UIView {
     
-    var delegate: PassColorDelegate?
+    var myBackgroundColor: UIColor = .brown
     
-    func setupColor() {
+    var passColor: ((UIColor) -> ())! {
         
-         let myBackgroundColor: UIColor = .orange
-        
-        delegate?.passColor(didGet: myBackgroundColor)
-        
+        didSet {
+            passColor(myBackgroundColor)
+        }
     }
     
+//    weak var delegate: PassColorDelegate?
+    
+//    func setupColor() {
+    
+//         let myBackgroundColor: UIColor = .orange
+        
+//        delegate?.passColor(didGet: myBackgroundColor)
+        
+//    }
+    
     deinit {
-        print("SomeView 掛惹")
+        print("SomeView 表示：屎掉惹")
     }
 }

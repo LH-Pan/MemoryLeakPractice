@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, PassColorDelegate {
+class SecondViewController: UIViewController{
     
     var myView: UIView = UIView()
     
@@ -20,11 +20,17 @@ class SecondViewController: UIViewController, PassColorDelegate {
         view.addSubview(myView)
         
         setupView()
+//
+//        someView.delegate = self
+//
+//        someView.setupColor()
         
-        someView.delegate = self
+//        someView.updateColor()
         
-        someView.setupColor()
+        someView.passColor = { [weak self] myColor in
 
+            self?.myView.backgroundColor = myColor
+        }
     }
     
      func setupView() {
@@ -35,7 +41,14 @@ class SecondViewController: UIViewController, PassColorDelegate {
     
     }
     
-    func passColor(didGet color: UIColor) {
-       myView.backgroundColor = color
+    deinit {
+        print("SecondVC 已死，有事燒紙")
     }
 }
+
+//extension SecondViewController: PassColorDelegate {
+//
+//    func passColor(didGet color: UIColor) {
+//        myView.backgroundColor = color
+//    }
+//}
